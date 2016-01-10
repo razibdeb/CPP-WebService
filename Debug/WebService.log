@@ -1,0 +1,18 @@
+﻿Build started 21-Dec-15 1:52:52 AM.
+     1>Project "K:\Works\CPP\CrossOver\CrossOverProject\WebService\WebService.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"K:\Works\CPP\CrossOver\CrossOverProject\packages\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.7.0\build\native\include" /IK:\Works\CPP\CrossOver\CrossOverProject\DatabaseHelper /I"K:\Works\CPP\CrossOver\Wt-3.3.5-rc2-msvs2013-Windows-x86-SDK\Wt-3.3.5-rc2-msvs2013-Windows-x86-SDK\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt RDService.cpp WebServiceSource.cpp
+         RDService.cpp
+     1>k:\works\cpp\crossover\crossoverproject\webservice\rdservice.cpp(106): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         WebServiceSource.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Works\CPP\CrossOver\CrossOverProject\Debug\WebService.exe" /INCREMENTAL /NOLOGO /LIBPATH:K:\Works\CPP\CrossOver\CrossOverProject\DatabaseHelper\Debug "K:\Works\CPP\CrossOver\CrossOverProject\packages\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.7.0\build\native\..\..\lib\native\v120\windesktop\msvcstl\dyn\rt-dyn\x86\Debug\cpprest120d_2_7.lib" DbHelper sqlite3 Vehicle kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\Works\CPP\CrossOver\CrossOverProject\Debug\WebService.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Works\CPP\CrossOver\CrossOverProject\Debug\WebService.lib" /MACHINE:X86 Debug\RDService.obj
+         Debug\WebServiceSource.obj
+         WebService.vcxproj -> K:\Works\CPP\CrossOver\CrossOverProject\Debug\WebService.exe
+     1>Done Building Project "K:\Works\CPP\CrossOver\CrossOverProject\WebService\WebService.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.64
